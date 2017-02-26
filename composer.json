@@ -1,0 +1,20 @@
+{
+    "name": "rockroc/hasher",
+    "description": "MD5 support in laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xieruipeng",
+            "email": "mrxrpeng@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+
+        "psr-4": {
+            "App\\": "app/",
+            "Rockroc\\Hasher\\": "src/"
+        }
+    }
+}
